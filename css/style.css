@@ -106,8 +106,12 @@ background-color: #2e2f42;
     background-color: #4d5ae5;
 }
 
-.main-btn:hover:focus{
+.main-btn:hover{
     background-color: #404BBF;
+}
+
+.main-btn:focus{
+    background-color: #404BBF
 }
 
 /* List */
@@ -149,10 +153,12 @@ background-color: #2e2f42;
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    
 }
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-list-images {}
 
