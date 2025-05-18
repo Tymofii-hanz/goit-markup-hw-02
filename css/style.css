@@ -106,6 +106,10 @@ background-color: #2e2f42;
     background-color: #4d5ae5;
 }
 
+.main-btn:hover:focus{
+    background-color: #404BBF;
+}
+
 /* List */
 .hero {}
 
@@ -137,13 +141,16 @@ background-color: #2e2f42;
 .team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-list-item {}
 
@@ -178,6 +185,7 @@ background-color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-list {}
@@ -203,19 +211,22 @@ background-color: #2e2f42;
 
     /* Footer */
 
-        .footer {}
+        .footer {
+            background: #2e2f42;
+        }
     
         .footer-link {
             font-weight: 700;
                 font-size: 18px;
-                line-height: 1.16667;
+                line-height: 1.17;
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
-                color: #f4f4fd;
+                color: #4d5ae5;
+                font-family: "Raleway", sans-serif
         }
     
         .footer-span {
-            color: #4d5ae5;;
+            color: #f4f4fd;
         }
     
         .foter-text {
