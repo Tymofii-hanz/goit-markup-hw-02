@@ -1,5 +1,7 @@
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
     
 }
 
@@ -32,12 +34,13 @@ address {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
         
 }
 
 .header-logo-span {
-    color: #4d5ae5;  
+    color: #2e2f42;  
 }
 
 .header-menu-list {}
